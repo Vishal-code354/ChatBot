@@ -128,7 +128,7 @@ document.getElementById('micButton').addEventListener('click', function() {
     const text = document.getElementById('transcript').textContent.trim();
 
     const xhr = new XMLHttpRequest();
-    xhr.open('POST', 'http://localhost:3000/api/voice', true);
+    xhr.open('POST', 'hhttps://vishal-code354.github.io/ChatBot/api/voice', true);
     xhr.setRequestHeader('Content-Type', 'application/json');
 
     xhr.onreadystatechange = function() {
