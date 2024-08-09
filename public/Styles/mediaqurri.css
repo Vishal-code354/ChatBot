@@ -1,0 +1,272 @@
+@media (min-width: 310px) and (max-width: 450px) {
+    header {
+        display: none !important;
+    }
+
+    .login-items {
+        width: 350px;
+        margin: auto;
+    }
+
+    .eye-icon {
+        position: absolute;
+        top: 5px;
+        right: 15px;
+    }
+
+    .google-icon {
+        position: absolute;
+        top: 66px;
+        left: 50px;
+    }
+
+    .buttons {
+        width: 300px;
+    }
+
+    #sidebarToggle {
+        display: block !important;
+        margin-top: 10px;
+        float: left;
+    }
+
+    aside {
+        display: none !important;
+    }
+
+    .logo-name {
+        display: none !important;
+    }
+
+    .logo-head {
+        position: absolute;
+        right: 10px;
+        top: 0px;
+    }
+
+    .msz {
+        /* margin-top: ; */
+        width: 350px;
+
+    }
+
+    .send-arrow {
+        font-size: 30px !important;
+        top: 7px;
+        right: 18px;
+    }
+
+    .chat-container {
+        height: 750px !important;
+        padding-top: 40px;
+    }
+
+    .chat-body {
+        height: 650px !important;
+    }
+    .voice-start-page{
+        width: 100% !important;
+        margin-top: 100px !important;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 650px) {
+
+    .login-items {
+        width: 350px;
+        margin: auto;
+    }
+
+    .eye-icon {
+        position: absolute;
+        top: 5px;
+        right: 35px;
+    }
+
+    .google-icon {
+        position: absolute;
+        top: 66px;
+        left: 50px;
+    }
+
+    .buttons {
+        width: 300px;
+
+    }
+
+    #sidebarToggle {
+        display: block !important;
+        margin-top: 10px;
+        float: left;
+    }
+
+    .logo-head {
+        position: absolute;
+        right: 10px;
+        top: 0px;
+    }
+
+    aside {
+        display: none !important;
+    }
+
+    .send-arrow {
+        font-size: 30px !important;
+        top: 1px;
+        right: 9px;
+    }
+
+    .chat-container {
+        height: 1000px;
+        padding-top: 40px;
+    }
+
+    .chat-body {
+        height: 700px !important;
+    }
+}
+
+@media (min-width: 650px) and (max-width: 770px) {
+
+    .login-items {
+        width: 350px;
+        margin: auto;
+    }
+
+    aside {
+        display: none !important;
+    }
+
+    .logo-head {
+        position: absolute;
+        right: 10px;
+        top: 0px;
+    }
+
+    #sidebarToggle {
+        display: block !important;
+        margin-top: 10px;
+        float: left;
+    }
+
+    .eye-icon {
+        position: absolute;
+        top: 5px;
+        right: 20px;
+
+    }
+
+    .google-icon {
+        position: absolute;
+        top: 66px;
+        left: 50px;
+    }
+
+    .buttons {
+        width: 300px;
+
+    }
+
+    .chat-container {
+        height: 850px;
+        padding-top: 40px;
+    }
+
+    .chat-body {
+        height: 850px !important;
+    }
+    .send-arrow {
+        position: absolute;
+        right: 40px;
+        top: 5px;
+    }
+}
+
+@media (min-width: 770px) and (max-width: 1000px) {
+
+    .login-items {
+        width: 350px;
+        margin: auto;
+    }
+
+    aside {
+        display: none !important;
+    }
+
+    .logo-head {
+        position: absolute;
+        right: 10px;
+        top: 0px;
+    }
+
+    #sidebarToggle {
+        display: block !important;
+        margin-top: 10px;
+        float: left;
+    }
+
+    .eye-icon {
+        position: absolute;
+        top: 5px;
+        right: 20px;
+
+    }
+
+    .google-icon {
+        position: absolute;
+        top: 66px;
+        left: 50px;
+    }
+
+    .buttons {
+        width: 300px;
+
+    }
+
+    .chat-container {
+        height: 1100px;
+        padding-top: 40px;
+    }
+
+    .chat-body {
+        height: 1100px !important;
+    }
+
+    .send-arrow {
+        position: absolute;
+        right: 40px;
+        top: 3px;
+    }
+}
+@media (min-width: 1000px) and (max-width: 1280px) {
+    .msz {
+        width: 900px;
+    }
+
+    aside {
+        display: none !important;
+    }
+
+    #sidebarToggle {
+        display: block !important;
+        position: absolute;
+        top: 20px;
+        margin-right: 200px;
+    }
+
+    .logo-head {
+        position: absolute;
+        right: 10px;
+        top: 0px;
+    }
+
+    .send-arrow {
+        position: absolute;
+        right: 40px;
+        top: 3px;
+    }
+
+    .chat-body {
+        max-height: 12500px ;
+    }
+}

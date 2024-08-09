@@ -1,0 +1,166 @@
+:root {
+    --main-bg: #003566;
+
+
+}
+
+
+body {
+    background: var(--main-bg);
+    color: #ffffff;
+    position: relative;
+   
+}
+
+
+/* index page */
+.logo {
+    width: 60px;
+}
+
+.charactor {
+    width: 180px;
+}
+
+/* form */
+.login-items {
+    padding: 15px 7px 15px 40px;
+    width: 500px;
+    border: none !important;
+    border-radius: 10px;
+    margin: 0 auto;
+    color: #faf7f7;
+    background: #000;
+}
+
+.icons {
+    position: absolute;
+    left: 10px;
+    top: 6px;
+
+}
+
+.icon-size {
+    font-size: 23px;
+}
+
+.eye-icon {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+}
+
+.google-icon {
+    position: absolute;
+    top: 64px;
+    left: 100px;
+}
+
+.buttons {
+    width: 400px;
+}
+
+.links:hover {
+    color: rgb(80, 146, 221) !important;
+    font-weight: 600 !important;
+}
+
+/* home page */
+
+.home-aside {
+    height: 100vh;
+}
+
+.aside-links li {
+    list-style-type: none;
+}
+
+.aside-links li a {
+    text-decoration: none;
+}
+.media-logo {
+    width: 100px;
+}
+.logo-head {
+    width: 40px;
+}
+
+.main-content-box {
+    height: 88vh;
+}
+
+.msz {
+    width: 1000px;
+    border: none !important;
+    padding: 7px 20px;
+}
+
+.send-arrow {
+    position: absolute;
+    right: 25px;
+    top: 2px;
+}
+
+.send-arrow:hover {
+    color: #0eeed0;
+}
+
+textarea {
+    padding-right: 50px !important;
+    overflow: auto;
+    align-content: center;
+}
+
+textarea::-webkit-scrollbar {
+    display: none;
+}
+
+textarea:focus {
+    outline: none;
+    /* Hides the outline/border */
+}
+
+.home-card {
+    width: 300px;
+    align-self: center;
+}
+
+
+/* sidebar */
+.sidebar {
+    display: flex !important;
+    justify-content: space-between !important;
+    width: 200px;
+    height: 100vh;
+    position: absolute;
+    top: 1px;
+}
+
+#sidebarToggle {
+    display: none;
+
+}
+
+/* voice action  */
+.voiceMsz{
+    padding: 2px;
+    width: 350px;
+    text-align: justify;
+    
+}
+/* chat box */
+#chat-box {
+    display: none !important;
+   
+}
+.mic{
+    
+    width: 150px !important;
+}
+.text-voice{
+    height: 100px;
+}
+.micbtn{
+    width: 80px !important;
+    height: 80px !important;
+}
