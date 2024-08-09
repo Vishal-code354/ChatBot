@@ -91,7 +91,7 @@ document.getElementById('registerBtn').addEventListener('click', function () {
 
 
                 const xhr = new XMLHttpRequest();
-                xhr.open('POST', 'http://localhost:3000/register', true);
+                xhr.open('POST', 'https://vishal-code354.github.io/ChatBot/register', true);
                 xhr.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
 
                 xhr.onreadystatechange = function () {
